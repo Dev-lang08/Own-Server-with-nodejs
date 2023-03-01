@@ -1,0 +1,9 @@
+<% layout('layouts/boilerplate')%>
+    <a href="/show" class="btn btn-success">Browse Files to Download</a>
+    <form action="" method="POST" novalidate enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="formFileMultiple" class="form-label">Insert files</label>
+            <input class="form-control" type="file" id="formFileMultiple" multiple name="files" required>
+        </div>
+        <button class="btn btn-success">Upload</button>
+    </form>
